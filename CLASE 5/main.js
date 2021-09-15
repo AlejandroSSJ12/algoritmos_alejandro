@@ -5,19 +5,19 @@ var decla = "no";
 var a = 12;
 var b = "0.5"
 //1
-if (decision == n ) {
+if (decision == m ) {
     console.log ("Me baño hoy:3");
 } else {
-    console.log("no me baño hoy xd")
+    console.log("no me baño hoy xd");
 }
 //2
-if (decision == m) {
+if (decision == n) {
     console.log ("No hago mi tarea hasta mañana xd");
 } else {
     console.log ("si la tuve que hacer xd");
 }
-//3
-if ( decla == n ){
+//EJERCICIO 3
+if ( decla == m ){
     console.log ("Me le declaro a la de 5t0 cuatrimestre:3");
 } else {
     console.log("no se dejo:(");
@@ -29,7 +29,7 @@ if ( a == 13 ){
     console.log("el numero es mayor o menor que 12");
 }
 //5
-if ( b == 0.5 ){
+if ( b == 0.6 ){
     console.log ("el numero decimal si es igual");
 } else {
     console.log("el numero decimal es diferente");
@@ -53,8 +53,8 @@ switch (perrito) {
 var tiempo = "1";
 var clima = "frio";
 switch (tiempo) {
-    case "1":
-    if ( clima == "calor") {
+    case "2":
+    if ( clima == "frio") {
         console.log("Si esta haciendo frio");
     } else {
         console.log ("esta haciendo calor");
