@@ -39,6 +39,8 @@ var persona="pedro";
 var edad="12";
 var perrito="pancho";
 var accion="pasear";
+var tienda = "laqueseria";
+var producto = "jamon";
 switch (persona) {
     case "pedro":
         console.log("Pedro es mi nombre y mi edad es 12años");
@@ -48,12 +50,18 @@ switch (perrito) {
     case "pancho":
         console.log("Mi nombre es "+perrito,"y me gusta salir a "+accion);
         break;
-}
+} 
+
+switch (tienda){
+    case "laqueseria":
+    console.log ("Voy a traer jamon a la tienda")    
+    }
+
 //condiciones de switch e if
 var tiempo = "1";
 var clima = "frio";
 switch (tiempo) {
-    case "2":
+    case "1":
     if ( clima == "frio") {
         console.log("Si esta haciendo frio");
     } else {
@@ -61,3 +69,4 @@ switch (tiempo) {
     }
     break;
     }
+
